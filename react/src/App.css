@@ -1,4 +1,4 @@
-.app{
+/* .app{
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,4 +23,57 @@ h1{
 .day-lable{
   margin: 0;
   color: blueviolet;
+} */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0%;
+  background-color: rgb(38, 31, 238);
+  color: white;
+}
+.navbar h2{
+  margin: 0;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+}
+.nav-links a:hover{
+  color: rgb(128, 174, 217);
+}
+\.hero{
+  padding:100px 8%;
+  background: linear-gradient(135deg,#172554,#2563eb);
+  color:white;
+}
+.hero-label{
+  margin:0;
+  color:#2461a7;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.hero h1{
+  max-width: 750px;
+  margin:12px 0;
+  font-size: 48px;
+}
+.hero-description{
+  max-width: 650px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.hero-button{
+  display: inline block;
+  margin-top: 20px;
+  padding:12px 20px;
+  border-radius: 6px;
+  background-color: white;
+  color:#1d4ed8;
+  font-weight: bold;
+  text-decoration: none;
+
 }
