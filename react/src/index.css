@@ -1,8 +1,12 @@
 *{
-  box-sizing: border-box;
+  box-sizing:border-box;
+}
+html{
+  scroll-behavior:smooth;
 }
 body{
-  margin: 0;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: brown
+  margin:0;
+  background-color:#f8fafc;
+  color:#1e293b;
+  font-family:Arial, Helvetica, sans-serif;
 }
