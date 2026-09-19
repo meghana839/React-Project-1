@@ -254,3 +254,28 @@ h1{
     grid-column:auto;
   }
 }
+.nav-link {
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+.active-link {
+  color: #60a5fa;
+  font-weight: bold;
+}
+
+.page-heading {
+  max-width: 1000px;
+  margin: auto;
+  padding: 70px 8%;
+}
+
+.page-heading h1 {
+  color: #0f172a;
+}
+
+.page-heading p {
+  max-width: 700px;
+  line-height: 1.7;
+  color: #475569;
+}
